@@ -152,6 +152,7 @@ nav a:first-child { padding-right: 2rem; }
     font-size: var(--size-sm);
     color: var(--onyx);
     transition: var(--transition);
+    text-align: center;
 }
 .box:hover { background-color: var(--platinum); }
 
