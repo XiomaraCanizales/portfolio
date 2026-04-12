@@ -71,11 +71,14 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; a
 .badge-udemy { background: #A435F0; }
 .badge-fcc { background: #0A0A23; }
 .badge-coursera { background: #0056D2; }
+.badge-scrimba { background: #CED19A; }
+.badge-cs50 { background: #A51C30;}
 .course-number { font-family: 'Cormorant Garamond', serif; font-size: 48px; font-weight: 300; color: var(--accent); line-height: 1; user-select: none; }
 .course-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .course-tag { font-size: 11px; font-weight: 500; padding: 4px 10px; border-radius: 12px; background: var(--bg-alt); color: var(--text); }
 .course-cert { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: var(--accent); margin-top: auto; transition: gap 0.2s; }
 .course-cert:hover { gap: 10px; }
+.not-cert { text-decoration: none; cursor: default;}
 
 /* projects */
 #projects { padding: 100px 60px; max-width: 1200px; margin: 0 auto; }
@@ -85,8 +88,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; a
 .group-label-line { flex: 1; height: 1px; background: var(--accent); }
 .group-label-text { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-soft); white-space: nowrap; }
 .group-label-badge { display: inline-flex; align-items: center; padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 500; white-space: nowrap; }
-.badge-frontend { background: #F9F0E8; color: var(--accent-2); border: 1px solid rgba(186,117,23,0.2); }
-.badge-fullstack { background: var(--bg); color: var(--accent); border: 1px solid rgba(212,83,126,0.2); }
+.badge-projects { background: var(--bg); color: var(--accent); border: 1px solid rgba(212,83,126,0.2); }
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 .project-card { background: var(--bg); border: 1px solid var(--accent); border-radius: 20px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; }
 .project-card:hover { transform: translateY(-4px); box-shadow: 0 0 30px rgba(212,83,126,0.15); }
